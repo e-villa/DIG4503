@@ -15,4 +15,4 @@ speak(){
 }
 
 module.exports = Person;
-//nodes module. exports and transfer to another file using rwqurie
+//nodes module. exports and transfer to another file using require
