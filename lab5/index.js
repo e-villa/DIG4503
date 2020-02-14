@@ -26,7 +26,7 @@ App.get("/id/:id", function(req, res) {
             console.log(chalk.green(req.path));
         }
 
-       res.send(result);
+       res.json(result);
 });
 
 /*localhost/name/"nameofPokemon"
@@ -49,7 +49,7 @@ App.get("/name/:name", function(req, res) {
             console.log(chalk.green(req.path));
         }
 
-         res.send(result);
+         res.json(result);
 });
 
 App.listen(port, function() {
