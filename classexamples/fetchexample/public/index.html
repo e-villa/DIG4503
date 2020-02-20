@@ -1,0 +1,34 @@
+<html>
+  <body>
+    <script>
+      function clicker(event) {
+
+      event.preventDefault();
+
+      let element = document.querySelector("input");
+      //cnsole.log
+      //"/api/5"
+      fetch("/api/" + element.value).then((res) => {
+        return res.json();
+      }).then((ProcessedResponse) => {
+        /*
+        let reporting = document.querySelector("#reportingArea");
+         if(processed.error){
+         reporting.innerHTML = processedrrror;
+      }
+        else{
+          reporting.innerHTML= processednumber;
+      }
+        */
+
+        console.log(ProcessedResponse);
+      });
+
+      }
+    </script>
+<form onsubmit ="clicker(event)">
+  <input type="text">
+  <button>Click me!</button>
+  </form>
+</body>
+</html>
