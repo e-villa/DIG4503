@@ -1,4 +1,4 @@
-import React from "react";
+import typestyles from '../type.module.css';
 
 class TypeSearch extends React.Component {
 
@@ -30,9 +30,9 @@ class TypeSearch extends React.Component {
    render() {
        return(
            <div>
-                <h2>Pokemon Type</h2>
+                <h2 className= {typestyles.header}>Pokemon Type</h2>
                 <form onSubmit={this.getType}>
-                   <input id="typeList" type="text" />
+                   <input id="typeList" type="text" placeholder="PokemonType" />
                    <button>Submit</button>
                </form>
            </div>
@@ -40,4 +40,4 @@ class TypeSearch extends React.Component {
    }
 }
 
-export default IdSearch;
+export default TypeSearch;
