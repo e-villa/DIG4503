@@ -1,0 +1,41 @@
+.colorlightpink {
+  color: lightpink;
+  font-style: italic;
+  padding-bottom: 10px;
+  margin-left: 40px;
+}
+
+.header {
+    font-family: "Lucida Console", Monaco, monospace;
+  	font-size: 24px;
+  	color: plum;
+  	margin-left: 0 auto;
+
+}
+
+.link {
+	padding-top: 15px;
+	margin-left: 100px;
+	color: lightblue;
+}
+
+.display {
+  background-image: url('https://pbs.twimg.com/media/EEP8oafXUAAfxn4.jpg');
+	background-size: cover;
+	display: inline-block;
+	height:300px;
+	width: 300px;
+}
+
+.gobacklink {
+	padding-top: 15px;
+	color: skyblue;
+}
+
+.displayImg {
+  background-image: url('https://media.giphy.com/media/u7nXiwsXFpv8I/giphy.gif');
+	background-size: cover;
+	display: inline-block;
+	height:300px;
+	width: 300px;
+}

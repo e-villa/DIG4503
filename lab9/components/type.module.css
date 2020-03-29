@@ -1,0 +1,18 @@
+.link {
+	padding-top: 15px;
+	margin-left: 100px;
+	color: lightblue;
+}
+
+.gobacklink {
+	padding-top: 15px;
+	color: skyblue;
+}
+
+.header {
+    font-family: "Lucida Console", Monaco, monospace;
+  	font-size: 24px;
+  	color: plum;
+  	margin-left: 0 auto;
+
+}

@@ -1,0 +1,27 @@
+.header {
+    font-family: "Lucida Console", Monaco, monospace;
+  	font-size: 24px;
+  	color: plum;
+  	margin-left: 0 auto;
+
+}
+
+
+.link {
+	padding-top: 15px;
+	margin-left: 100px;
+	color: lightblue;
+}
+
+.gobacklink {
+	padding-top: 15px;
+	color: skyblue;
+}
+
+.displayname{
+  background-image: url('https://img.rankedboost.com/wp-content/uploads/2018/10/Pokemon-Lets-Go-Shiny-Pokemon-1.png');
+	background-size: cover;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
