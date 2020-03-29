@@ -1,4 +1,4 @@
-import React from "react";
+import namestyles from '../name.module.css';
 
 class NameSearch extends React.Component {
 
@@ -30,9 +30,9 @@ class NameSearch extends React.Component {
     render() {
         return(
             <div>
-            <h2>Pokemon Name</h2>
+            <h2 className={namestyles.header}>Pokemon Name</h2>
               <form onSubmit={this.readName}>
-                <input id="name" type="text"/>
+                <input id="name" type="text" placeholder= "Pokemon Name"/>
                 <button>Submit</button>
               </form>
             </div>

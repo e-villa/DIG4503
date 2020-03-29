@@ -1,4 +1,4 @@
-import idstyles from '../components/id.module.css';
+import idstyles from '../id.module.css';
 
 
 class IdSearch extends React.Component {
@@ -31,34 +31,16 @@ class IdSearch extends React.Component {
 }
 render(){
     return(
-      render() {
-      return(
           <div>
-               <h5 className={styles.header5}>Pokemon ID</h5>
+               <h2 className={idstyles.header}>Pokemon ID</h2>
                <form onSubmit={this.readId}>
-                  <input id="id" type="text" className={styles.input} />
+                  <input id="id" type="text" placeholder= "Pokemon Id" />
                   <br></br>
-                  <button className={styles.button}>Submit</button>
+                  <button>Submit</button>
               </form>
           </div>
-      /*  <div >
-            <Head>
-                <title>ID</title>
-            </Head>
-            <Link href="/">
-                <a className={idstyles.gobacklink} >Go Back</a>
-            </Link>
 
-            <h2 className={idstyles.header}>Pokemon ID</h2>
-            <form onSubmit={this.readId}
-            <input type="text" id="id" placeholder="Pokemon ID"/>
-            <button onClick={() => { this.readId() } }>Search</button>
 
-            <div id="reportingArea"></div>
-           <div className= {idstyles.displayImg}></div>
-           </form>
-        </div>
-        */
        );
    }
 }
