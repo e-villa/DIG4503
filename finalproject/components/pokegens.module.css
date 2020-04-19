@@ -1,0 +1,119 @@
+
+.a{
+padding-top: 15px;
+margin: 0 auto;
+color: black;
+font-family: "Arial", sans-serif;
+font-style: normal;
+font-weight: lighter;
+}
+.a:hover{
+padding-top: 15px;
+color: #D57EBE;
+font-size: 16px;
+font-family: "Arial", sans-serif;
+font-style: normal;
+font-weight: bold;
+}
+
+.a:visited{
+padding-top: 15px;
+
+color: #FF0000;
+font-size: 16px;
+font-family: "Arial", sans-serif;
+font-style: normal;
+font-weight: bold;
+}
+
+.p{
+  text-align: center;
+  text-shadow: 2px 1px 3px #bbb;
+  font-size: 3em;
+  transition: 0.3s;
+
+}
+.p:hover{
+  text-align: center;
+  text-shadow: 2px 1px 3px #bbb;
+  font-size: 3em;
+  font-weight:bolder;
+
+}
+
+
+.card1{
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ width: 100%;
+ font-weight: lighter;
+ border-radius: 5px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-size: 2em;
+
+}
+
+.card1 span {
+  background-image: linear-gradient(to right, lightblue, pink);
+}
+.card1:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.photo1 {
+  height:900px;
+  background-image: url('https://www.nicepng.com/png/full/349-3498233_shiny-pokemon-shiny-generation-1.png');
+  background-size: cover;
+}
+
+
+.card2{
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ width: 100%;
+ border-radius: 5px;
+ font-weight: lighter;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-size: 2em;
+
+}
+.card2 span {
+  background-image: linear-gradient(to right,lightblue, pink);
+}
+.card2:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.photo2 {
+  height:900px;
+  background-image: url('https://www.pngkit.com/png/full/228-2285990_pokemon-pokedex-johto-download-pokemon-all-generation-2.png');
+  background-size: cover;
+}
+
+
+.card3{
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ width: 100%;
+ border-radius: 5px;
+ font-weight: lighter;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-size: 2em;
+}
+
+.card3 span{
+  background-image: linear-gradient(to right,lightblue, pink);
+}
+
+.card3:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.photo3 {
+  height:900px;
+  background-image: url('https://i.pinimg.com/originals/f0/57/59/f057592780306b85d2652d0fab1d9685.jpg');
+  background-size: cover;
+}

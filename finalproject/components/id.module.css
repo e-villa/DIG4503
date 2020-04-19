@@ -1,0 +1,78 @@
+.body{
+  background-image: url('https://i.ibb.co/8DVyh3r/edited.jpg');
+
+}
+
+.h2 {
+    font-family: "Lucida Console", Monaco, monospace;
+  	font-size: 24px;
+  	color: #7fffff;
+  	margin-left: 0 auto;
+
+}
+.header{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+  color: #7fffff;
+  margin-left: 0 auto;
+  text-align: center;
+
+}
+.header span{
+  background-image: linear-gradient(to right,blue,indigo,violet);
+}
+
+
+.a {
+	padding-top: 15px;
+  margin: 0 auto;
+	color: black;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+.a:hover{
+  padding-top: 15px;
+  color: #D57EBE;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.a:visited{
+  padding-top: 15px;
+
+  color: #FF0000;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.displayImg {
+  background-image: url('https://media.giphy.com/media/u7nXiwsXFpv8I/giphy.gif');
+	background-size: cover;
+	display: inline-block;
+	height:500px;
+	width: 500px;
+
+}
+
+.result{
+  color: #FF00FF;
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: "Verdana", sans-serif;
+}
+
+.idform{
+  background-image: linear-gradient(to right,blue,indigo,violet);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+  max-width: 30%;
+  margin: 5% auto;
+  text-align: center;
+  padding: 12px;
+  line-height: 2em;
+  background-color: #f2f2f2;
+}

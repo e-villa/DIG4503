@@ -1,0 +1,61 @@
+.homeImg{
+  background-image: url('https://i.pinimg.com/originals/1c/a6/e1/1ca6e1c35e2d884230242cc0326dbf28.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display{
+  background-image: url('https://media.giphy.com/media/12COT49AXNCOpG/giphy.gif');
+	background-size: auto;
+	display: inline-block;
+	height:370px;
+	width: 500px;
+}
+
+.header {
+    font-family: "Lucida Console", Monaco, monospace;
+  	font-size: 24px;
+  	color: rgb(59, 43, 59);
+  	margin-left: 0 auto;
+}
+
+.color {
+  color: #a72a8598;
+  font-style: italic;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.container{
+  text-align: center;
+  border-style: groove;
+  border-spacing: inherit;
+  border-width: 3px;
+}
+
+.link {
+	padding-top: 15px;
+	color: blue;
+  font-family: "Gill Sans", sans-serif;;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.link:hover{
+   color: #c244a1;
+   font-size: 16px;
+   font-family: "Gill Sans", sans-serif;;
+   font-style: normal;
+   font-weight: bold;
+}
+
+.link:visited{
+  color: rgb(14, 105, 75);
+   font-size: 12px;
+   font-family: "Gill Sans", sans-serif;
+   font-style: italic;
+   font-weight: bold;
+}

@@ -1,0 +1,71 @@
+.body{
+  background-image: url('https://i.ibb.co/8DVyh3r/edited.jpg');
+}
+
+
+.displayType{
+  background-image: url('https://i.redd.it/n2j3zbazmo941.png');
+  background-size: cover;
+  display: inline-block;
+  height:600px;
+  width: 600px;
+}
+
+.a {
+	padding-top: 15px;
+  margin: 0 auto;
+	color: black;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+.a:hover{
+  padding-top: 15px;
+  color: #D57EBE;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.a:visited{
+  padding-top: 15px;
+
+  color: #FF0000;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.p{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+  color: #7fffff;
+  margin-left: 0 auto;
+  text-align: center;
+  font-kerning: normal;
+}
+
+.p span{
+  background-image: linear-gradient(to right,blue,indigo,violet);
+
+}
+
+.typeform{
+  background-image: linear-gradient(to right,blue,indigo,violet);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+  max-width: 50%;
+  margin: 5% auto;
+  text-align: center;
+  padding: 12px;
+  line-height: 24px;
+  background-color: #f2f2f2;
+}
+
+.result{
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
